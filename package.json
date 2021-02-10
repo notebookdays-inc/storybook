@@ -34,8 +34,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
-    "@notebookdays/audio-player": "https://github.com/notebookdays-inc/audio-player/",
-    "@notebookdays/playable-text": "https://github.com/notebookdays-inc/playable-text",
+    "@notebookdays/react-components": "https://github.com/notebookdays-inc/react-components",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }

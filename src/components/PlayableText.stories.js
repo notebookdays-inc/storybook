@@ -3,7 +3,7 @@ import React from "react";
 import { Button } from "@material-ui/core";
 
 import { withKnobs, object } from "@storybook/addon-knobs";
-import PlayableText from "@notebookdays/playable-text";
+import { PlayableText } from "@notebookdays/react-components";
 
 export default {
   title: "PlayableText",
@@ -58,7 +58,7 @@ export const Sample = () => {
           fontFamily: "Baloo Tamma 2",
           fontWeight: 800,
         }}
-      ></PlayableText>
+      />
     </>
   );
 };

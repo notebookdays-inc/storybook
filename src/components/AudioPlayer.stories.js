@@ -1,7 +1,7 @@
 import React from "react";
 
 import { withKnobs, text } from "@storybook/addon-knobs";
-import AudioPlayer from "@notebookdays/audio-player";
+import { AudioPlayer } from "@notebookdays/react-components";
 
 export default {
   title: "AudioPlayer",
