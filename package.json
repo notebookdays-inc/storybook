@@ -1,0 +1,42 @@
+{
+  "name": "notebooks-react-component-library",
+  "version": "1.0.0",
+  "description": "This lists all the components used by notebooks",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "start-storybook",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notebookdays-inc/storybook.git"
+  },
+  "author": "Dhanraj M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notebookdays-inc/storybook/issues"
+  },
+  "homepage": "https://github.com/notebookdays-inc/storybook#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "@storybook/addon-knobs": "^6.1.17",
+    "@storybook/react": "^6.1.17",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "node-sass": "^5.0.0",
+    "path": "^0.12.7",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@notebookdays/audio-player": "https://github.com/notebookdays-inc/audio-player/",
+    "@notebookdays/playable-text": "https://github.com/notebookdays-inc/playable-text",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
